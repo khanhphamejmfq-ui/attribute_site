@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>电视剧&电影</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:24px 18px 58px;background:linear-gradient(180deg,#f0f6ff 0%,#fbfdff 52%,#fff7fb 100%);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#254866}
+.page{max-width:680px;margin:0 auto}
+.back{display:inline-flex;align-items:center;margin-bottom:18px;padding:9px 14px;border:1px solid #b9d7ff;border-radius:999px;background:#fff;color:#2a5a8a;text-decoration:none;font-size:14px;box-shadow:0 4px 14px rgba(42,90,138,.07)}
+.header{text-align:center;margin:10px 0 22px}
+.header h1{margin:0;font-family:"Noto Serif SC","Songti SC",serif;font-size:35px;letter-spacing:.04em;color:#24517f}
+.header .sub{margin-top:8px;font-size:14px;color:#6f91b4;letter-spacing:.08em}
+.block{margin-top:18px;padding:18px;border:1.5px solid #bfdcff;border-radius:24px;background:rgba(255,255,255,.92);box-shadow:0 9px 25px rgba(42,90,138,.06)}
+.block-title{font-size:22px;font-weight:900;color:#24517f;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.work{margin-top:14px;padding:16px;border:1px solid #d8e8ff;border-radius:20px;background:#f8fbff}
+.work:first-of-type{margin-top:0}
+.name{font-size:19px;font-weight:900;color:#234e78;margin-bottom:9px}
+.text{line-height:1.85;font-size:15px;color:#3e6385;margin:6px 0 0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.tag{padding:6px 10px;border-radius:999px;background:#eef6ff;border:1px solid #c8e0ff;color:#2e5f8d;font-size:13px;font-weight:700}
+.review{margin-top:12px;border-radius:16px;overflow:hidden;border:1px solid #d5e6ff;background:#fff}
+.review img{display:block;width:100%;height:auto}
+.movie{border-color:#f3d3e2;background:#fffafd}.movie .name{color:#7b3158}.movie .tag{background:#fff0f7;border-color:#f0bed6;color:#7a3158}.movie .text{color:#70465d}.movie .review{border-color:#f0d3e2}
+@media(max-width:430px){body{padding:20px 14px 46px}.header h1{font-size:30px}.block{padding:15px}.work{padding:14px}.name{font-size:18px}}
+</style>
+</head>
+<body>
+<main class="page">
+<a class="back" href="index.html">‹ 回到首页</a>
+<header class="header">
+<h1>电视剧&电影</h1>
+<div class="sub">DRAMA & MOVIE</div>
+</header>
+
+<section class="block">
+<div class="block-title">📺 电视剧</div>
+
+<article class="work">
+<div class="name">大秦帝国三部曲</div>
+<p class="text">最爱《纵横》，也只有《纵横》完整看完了。</p>
+<div class="tags"><span class="tag">孝鞅</span><span class="tag">驷仪</span><span class="tag">昭白</span><span class="tag">不拆不逆</span></div>
+</article>
+
+<article class="work">
+<div class="name">《三体》</div>
+<div class="review"><img src="https://i.postimg.cc/FK0TfQX1/Screenshot-20260626-155113-com-douban-frodo-Subject-Wish-Manage-Tab-Activity-edit-1228620957243244.jpg" alt="三体豆瓣剧评"></div>
+</article>
+
+<article class="work">
+<div class="name">《藏海传》</div>
+<div class="review"><img src="https://i.postimg.cc/W1LrdqNN/Screenshot-20260621-182245-com-douban-frodo-Subject-Wish-Manage-Tab-Activity-edit-1228718415464300.jpg" alt="藏海传豆瓣剧评"></div>
+</article>
+
+<article class="work">
+<div class="name">《低智商犯罪》</div>
+<p class="text">嗑周荣×胡建仁，不拆不逆。</p>
+<p class="text">个人口味/理解：胡建仁唯爱周荣，双箭头但胡建仁对周荣箭头更粗。</p>
+<div class="tags"><span class="tag">周荣×胡建仁</span><span class="tag">不拆不逆</span><span class="tag">胡建仁唯爱周荣</span></div>
+</article>
+</section>
+
+<section class="block movie">
+<div class="block-title">🎬 电影</div>
+
+<article class="work movie">
+<div class="name">《流浪地球2》</div>
+<p class="text">嗑过马兆×图恒宇。</p>
+<div class="tags"><span class="tag">马兆×图恒宇</span></div>
+<div class="review"><img src="https://i.postimg.cc/ZY6v1KF5/Screenshot-20260626-155117-com-douban-frodo-Subject-Wish-Manage-Tab-Activity-edit-1228885236641841.jpg" alt="流浪地球2豆瓣剧评"></div>
+</article>
+
+<article class="work movie">
+<div class="name">《八角笼中》</div>
+<p class="text">嗑过苏木×马虎。</p>
+<div class="tags"><span class="tag">苏木×马虎</span></div>
+</article>
+
+<article class="work movie">
+<div class="name">《得闲谨制》</div>
+<div class="review"><img src="https://i.postimg.cc/d1PtBrfk/Screenshot-20260626-155720-com-douban-frodo-Subject-Wish-Manage-Tab-Activity-edit-1228978970070190.jpg" alt="得闲谨制豆瓣剧评"></div>
+</article>
+</section>
+</main>
+</body>
+</html>
